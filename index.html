@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Images/logo.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Images/logo.png" alt="Reddit Logo" width="30px" height="30px">
+                <h1>Reddit</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Reddit">
+            </div>
+            <div class="nav-buttons">
+                <button class="login-btn">Log In</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-container">
+            <div class="posts-section">
+                <!-- Video Post -->
+                <div class="post">
+                    <div class="post-votes">
+                        <button class="vote-btn">▲</button>
+                        <span class="vote-count">156</span>
+                        <button class="vote-btn">▼</button>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-header">
+                            <span class="post-author">Posted by videoUser789</span>
+                            <span class="post-time">30 minutes ago</span>
+                        </div>
+                        <h3 class="post-title">Amazing Sunset Timelapse</h3>
+                        <div class="video-container">
+                            <video controls>
+                                <source src="video/videoPost.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="post-footer">
+                            <button class="comment-btn">💬 45 Comments</button>
+                            <button class="share-btn">↗️ Share</button>
+                            <button class="save-btn">⭐ Save</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Post -->
+                <div class="post">
+                    <div class="post-votes">
+                        <button class="vote-btn">▲</button>
+                        <span class="vote-count">89</span>
+                        <button class="vote-btn">▼</button>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-header">
+                            <span class="post-author">Posted by photoLover123</span>
+                            <span class="post-time">1 hour ago</span>
+                        </div>
+                        <h3 class="post-title">Check out this amazing view from my morning hike!</h3>
+                        <div class="media-container">
+                            <img src="Images/onepiecePost.jpg" alt="Mountain View" class="post-image">
+                        </div>
+                        <p class="post-description">Caught this beautiful sunrise at Mount Rainier this morning. The colors were unreal!</p>
+                        <div class="post-footer">
+                            <button class="comment-btn">💬 32 Comments</button>
+                            <button class="share-btn">↗️ Share</button>
+                            <button class="save-btn">⭐ Save</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text Post with Image -->
+                <div class="post">
+                    <div class="post-votes">
+                        <button class="vote-btn">▲</button>
+                        <span class="vote-count">42</span>
+                        <button class="vote-btn">▼</button>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-header">
+                            <span class="post-author">Posted by user123</span>
+                            <span class="post-time">2 hours ago</span>
+                        </div>
+                        <h3 class="post-title">Welcome to Reddit Clone!</h3>
+                        <p>This is a sample post to demonstrate the layout and styling of our Reddit clone.</p>
+                        <div class="media-container">
+                            <img src="Images/smeagolPost.jpg" alt="Sample Post Image" class="post-image">
+                        </div>
+                        <div class="post-footer">
+                            <button class="comment-btn">💬 15 Comments</button>
+                            <button class="share-btn">↗️ Share</button>
+                            <button class="save-btn">⭐ Save</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text-only Post -->
+                <div class="post">
+                    <div class="post-votes">
+                        <button class="vote-btn">▲</button>
+                        <span class="vote-count">28</span>
+                        <button class="vote-btn">▼</button>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-header">
+                            <span class="post-author">Posted by user456</span>
+                            <span class="post-time">4 hours ago</span>
+                        </div>
+                        <h3 class="post-title">This is a text-only post</h3>
+                        <p>Here's another sample post showing how text-only content looks in our Reddit clone.</p>
+                        <div class="post-footer">
+                            <button class="comment-btn">💬 7 Comments</button>
+                            <button class="share-btn">↗️ Share</button>
+                            <button class="save-btn">⭐ Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="sidebar">
+                <div class="community-info">
+                    <h3>Top Communities</h3>
+                    <ul class="community-list">
+                        <li>r/Programming</li>
+                        <li>r/Technology</li>
+                        <li>r/Science</li>
+                        <li>r/Gaming</li>
+                        <li>r/Movies</li>
+                    </ul>
+                </div>
+                <div class="create-post-card">
+                    <h3>Create Post</h3>
+                    <p>Share your thoughts with the community</p>
+                    <button class="create-post-btn">Create Post</button>
+                </div>
+            </aside>
+        </div>
+    </main>
+</body>
+</html>
